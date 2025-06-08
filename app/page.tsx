@@ -372,16 +372,6 @@ export default function Portfolio() {
               description="Bringing friends together in the city by smartly matching their vibes, budget, distance, and all, so every meetup feels just right"
               tags={["React.js", "TypeScript", "MapsAPI", "Multi Objective Optimization"]}
               image="/meetsync.png?height=400&width=600"
-              // demoUrl="https://example.com"
-              // repoUrl="https://github.com"
-            />
-            <ProjectCard
-              title="Legal Document Retrieval"
-              description="A collaborative task management application with real-time updates."
-              tags={["React", "Firebase", "Tailwind CSS", "Redux"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
             />
             <ProjectCard
               title="TinyGuard"
@@ -391,10 +381,17 @@ export default function Portfolio() {
               repoUrl="https://github.com/rakesh018/TinyGuard"
             />
             <ProjectCard
+              title="Epileptic Seizure Detection"
+              description="Hybrid CNN-TCN Model for Epileptic Seizure Detection from EEG Signals"
+              tags={["Python", "PyTorch", "Feature Fusion"]}
+              image="/epileptic.png?height=400&width=600"
+              repoUrl="https://github.com/rakesh018/Epileptic-Seizure-Detection"
+            />
+            <ProjectCard
               title="Receipt Rocket"
               description="An end-to-end image processing pipeline that segments, corrects, and extracts receipt data, clean results without the overhead of machine learning."
               tags={["Python", "OpenCV", "Matplotlib", "Pillow"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/receipt_rocket.png?height=400&width=600"
               repoUrl="https://github.com/rakesh018/Receipt-Rocket"
             />
             <ProjectCard
@@ -402,8 +399,7 @@ export default function Portfolio() {
               description="An intelligent Pneumonia detector that aids medical professionals by identifying and highlighting the most likely affected regions enhancing diagnosis speed and confidence."
               tags={["Python", "LIME", "SHAP"]}
               image="/pneumonia.png?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/rakesh018/Pneumonia-Detection"
             />
             <ProjectCard
               title="Portfolio Website"
@@ -411,7 +407,7 @@ export default function Portfolio() {
               tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
               image="/portf.png?height=400&width=600"
               demoUrl="#"
-              repoUrl="https://github.com"
+              repoUrl="https://github.com/rakesh018/Portfolio"
             />
           </div>
         </div>
