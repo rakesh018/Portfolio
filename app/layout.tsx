@@ -4,7 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Rakesh Bodapatla',
   description: 'Created with v0',
-  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico', // Path relative to the public folder
+  },
 }
 
 export default function RootLayout({
